@@ -19,7 +19,6 @@ def BinarySearch(start, end, m):
 
 print(BinarySearch(start, end, m)+1)
 
-
 ##비재귀방법
 # while start <= end:
 #     mid = (start+end)//2
