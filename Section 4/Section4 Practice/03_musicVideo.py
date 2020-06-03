@@ -14,7 +14,6 @@ def Check(capacity):
 
     return cnt
 
-
 start = 1
 end = 1000
 
