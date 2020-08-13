@@ -6,7 +6,6 @@
 # 맨 앞사람과 맨 뒤사람을 함께 태우는ㄴ 방식으로 진행한다. 
 # 그리고 list에서 pop(0)과 pop(-1)을 사용하면 이후 list의 element들의 재배치가 다시되어야한다는 비효율이 있기 때문에
 # pointer만 바꿔주는ㄴ deque 자료구조를 이용하는 것이 좋다 
-
 from collections import deque
 n, limit=map(int, input().split())
 weight=list(map(int, input().split()))
